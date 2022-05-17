@@ -12,7 +12,7 @@ class Speakeasy < Formula
       sha256 "794cf737a302336da8791d4a5ff12808954f8444fb3093ebf6165aec7224aa84"
 
       def install
-        bin.install "speakeasy"
+        bin.install "cli"
       end
     end
     if Hardware::CPU.arm?
@@ -20,7 +20,7 @@ class Speakeasy < Formula
       sha256 "5b2bdcff0d453ad2fd5772b7094e4bcd08f01dc4436f2c4b6c29543cb0dd1edb"
 
       def install
-        bin.install "speakeasy"
+        bin.install "cli"
       end
     end
   end
