@@ -5,20 +5,20 @@
 class Speakeasy < Formula
   desc ""
   homepage "https://github.com/speakeasy-api/homebrew-taps"
-  version "0.1.1-alpha-rc3"
+  version "0.1.1-alpha-rc4"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/speakeasy-api/cli/releases/download/v0.1.1-alpha-rc3/cli_0.1.1-alpha-rc3_Darwin_arm64.tar.gz"
-      sha256 "931bbebf85b13d3345afa45a1107a8a3c73042377c95a76afde67e12f298d9c6"
+      url "https://github.com/speakeasy-api/cli/releases/download/v0.1.1-alpha-rc4/cli_0.1.1-alpha-rc4_Darwin_arm64.tar.gz"
+      sha256 "3504b10f5298e9bc5e1a265819c8a4c07ba46eb8d983d924139e610de58fc1a8"
 
       def install
         bin.install "speakeasy"
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/speakeasy-api/cli/releases/download/v0.1.1-alpha-rc3/cli_0.1.1-alpha-rc3_Darwin_x86_64.tar.gz"
-      sha256 "635f176b064e9401095927c267d8808c7b72ae0c84a838853e34eb2d0bae869f"
+      url "https://github.com/speakeasy-api/cli/releases/download/v0.1.1-alpha-rc4/cli_0.1.1-alpha-rc4_Darwin_x86_64.tar.gz"
+      sha256 "751b8b374978e8734274f09c26cdb8f4a52663871d70e61cf641bb9b651fe77d"
 
       def install
         bin.install "speakeasy"
